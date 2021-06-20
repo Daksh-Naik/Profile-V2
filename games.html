@@ -1,0 +1,145 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+<head>
+   <link rel="icon" href="images/portfolio/iconprof.jpeg">
+
+   <meta name="viewport" content="width=device-width">
+
+   <title>Games</title>
+</head>
+
+<style type="text/css">
+
+   body {
+      text-align: center;
+      user-select: none;
+
+      
+-webkit-animation: fadein 1s; 
+   -moz-animation: fadein 1s; 
+    -ms-animation: fadein 1s; 
+     -o-animation: fadein 1s; 
+        animation: fadein 1s;
+   }
+
+   #p1-heading{
+      text-align: center;
+      text-align-last: center;
+      color: rgb(244, 255, 149);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      size: 7px;
+   }
+
+   #p2-imager{
+      margin-top: 20px;
+      column-count: 1;
+      display: flex;
+      justify-content: center;
+      padding: 10px 10px;
+
+   }
+
+   img {
+        max-width: 50%;
+        max-height: 40%;
+        min-width: 60%;
+        min-height: 50%;
+   }
+
+   a {
+      color: chartreuse;
+      text-decoration: none;
+   }
+
+   a:hover {
+      color: white;
+      text-decoration: underline;
+   }
+
+   .gameback {
+      border: 5px solid white;
+      border-radius: 25px;
+      background-color: rgb(27, 27, 27);
+      padding: 10px 10px;
+   }
+
+   .backtoindex {
+      padding: 10px;
+      color: greenyellow;
+      background-color: black;
+      border-radius: 10px;
+   }
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+   @media only screen and (max-width : 600px) {
+      #p1-heading {
+         font-size: 15px;
+      }
+   }
+
+   @media only screen and (max-width : 400px) {
+      #p1-heading {
+         font-size: 14px;
+      }
+      
+      .navbar {
+         font-size: 14px;
+         padding: 10px;
+      }
+   }
+
+</style>
+
+<body style="background-color: rgb(41, 41, 41);">
+
+   <h3 id="p1-heading"> Want to play a game? Select a mode from below :<br><br>
+      <strong style="font-family: 'Trebuchet MS'; color: cornsilk;">Please consider that almost all of the games are recommended to be played on Desktops/Laptops
+      with a recommended Resolution of atleast 1350x600 or higher.</strong><br><br>
+         <strong><a style="color: rgb(255, 251, 0);" href="aboutgames.html">How are these games created? How to play them?</a></strong>
+      </h3>
+
+   <div class="gameback">
+      <div class="p2-imager">
+      <a href="simugame.html"><img src="images/game-nav/simulation.jpeg"></a>
+      <hr>
+      <a href="arcadegame.html"><img src="images/game-nav/arcade.jpeg"></a>
+      <hr>
+      <a href="staticarcadegame.html"><img src="images/game-nav/staticarcade.jpeg"></a>
+      <hr>
+      <a href="onlinegames.html"><img src="images/game-nav/online.jpeg"></a>
+      </div>
+   </div><br>
+
+   <div class="backtoindex">
+      <a href="index.html">Go back to Index</a>
+   </div>
+
+</body>
+
+</html>

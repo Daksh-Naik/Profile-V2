@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+
+    <link rel="icon" href="images/portfolio/iconprof.jpeg">
+    <link rel="stylesheet" href="style.css"> 
+
+    <title>About</title>
+
+<style type="text/css">
+
+    body {
+        user-select: none;
+    }
+    
+    #header{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(255, 183, 0);
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #about-this-guy-font{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        color: lightblue;
+        padding: 40px;
+        border: 5px lightcyan;
+    }
+    
+   #about-me-fade {
+
+-webkit-animation: fadein 1s; 
+   -moz-animation: fadein 1s; 
+    -ms-animation: fadein 1s; 
+     -o-animation: fadein 1s; 
+        animation: fadein 1s;
+}
+
+    .name-fade {
+
+-webkit-animation: fadein 3s; 
+   -moz-animation: fadein 3s; 
+    -ms-animation: fadein 3s; 
+     -o-animation: fadein 3s; 
+        animation: fadein 3s;
+}
+
+    .second-fader {
+
+-webkit-animation: fadein 5s; 
+   -moz-animation: fadein 5s; 
+    -ms-animation: fadein 5s; 
+     -o-animation: fadein 5s; 
+        animation: fadein 5s;
+}
+
+    .third-fader {
+
+-webkit-animation: fadein 7s; 
+   -moz-animation: fadein 7s; 
+    -ms-animation: fadein 7s; 
+     -o-animation: fadein 7s; 
+        animation: fadein 7s;
+}
+
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+    @media only screen and (max-width: 1010px) {
+        .navbar {
+            padding: 5px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .navbar {
+            padding: 1px;
+        }
+    }
+
+</style>
+
+</head>
+
+<body style="background-color: black; user-select: none;">
+
+    <div id="about-me-fade">
+    <header id="header">
+        About Me
+    </header>
+    </div>
+
+    <div id="about-this-guy-font" class="name-fade">
+        <span style="color: rgb(255, 175, 56);">
+            Daksh Naik (aka Dakshee)
+            <p style="color: rgb(163, 255, 163);"><strong style="color: rgb(181, 255, 181);">DOB: July 2006</strong></p><br><br>
+            From <strong style="color: rgb(255, 195, 82);">Goa, India</strong><br><br><br>
+        </span>
+        
+        <span class="second-fader">
+            <br>Intermediate in <strong style="color: rgb(78, 78, 255); font-size: 22px;">JavaScript's </strong>P5.PLAY.JS, Matter.JS and Google Firebase Console : Realtime Database.<br>
+            <strong style="color: rgb(78, 78, 255); font-size: 22px;">HTML 5</strong> and <strong style="color: rgb(79, 79, 255); font-size: 22px;">CSS 3</strong>.<br><br><br>
+        </span>
+
+        <cite style="color: rgb(255, 252, 228);" class="third-fader">
+            "Your Journey will begin only if you take a step."<br><br><br><br><br><br><br>
+        </cite>
+        
+    </div>
+
+    <div class="navbar">
+        <span id="dont-know-this">
+            <a href="index.html">Go back to Index</a>
+            <a href="about.html">About this Website</a>
+        </span>
+    </div>
+    
+</body>
+</html>
